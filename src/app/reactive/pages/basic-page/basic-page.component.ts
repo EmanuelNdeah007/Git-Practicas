@@ -59,6 +59,8 @@ export class BasicPageComponent implements OnInit {
 
   onSave(): void {
 
+    console.log("Hola mundo");
+
     if (this.myForm.invalid) {
       this.myForm.markAllAsTouched();
       return;
@@ -71,3 +73,4 @@ export class BasicPageComponent implements OnInit {
   }
 
 }
+
